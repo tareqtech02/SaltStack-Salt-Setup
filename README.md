@@ -31,8 +31,10 @@ Disable and Stop the Service Firewall Configuration
 systemctl disable firewalld
 ```
   
-## Salt Minions  
+## Salt Minions
 <br />  
+
+
 Update System
 ```
 yum update -y
