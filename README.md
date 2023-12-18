@@ -1,8 +1,10 @@
 # SaltStack or Salt Setup  
-  
+---
 <br />  
+
+
 ## Salt Master  
-___
+
 Update System
 ```
 yum update -y
