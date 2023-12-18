@@ -2,6 +2,14 @@
 ---
 <br />  
 
+## On All nodes 
+```
+vim /etc/hosts
+192.168.235.69  salt-master
+192.168.235.147 salt-minions01
+192.168.235.26  salt-minions02
+```
+
 
 ## Salt Master  
 
