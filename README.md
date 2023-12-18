@@ -1,7 +1,7 @@
-# SaltStack or Salt Setup
-
-
-## Salt Master
+# SaltStack or Salt Setup  
+  
+  
+## Salt Master  
 
 Update System
 ```
@@ -28,9 +28,9 @@ Disable and Stop the Service Firewall Configuration
 ```
 systemctl disable firewalld
 ```
-
-## Salt Minions 
-
+  
+## Salt Minions  
+  
 Update System
 ```
 yum update -y
@@ -84,15 +84,15 @@ Disable and Stop the Service Firewall Configuration
 ```
 systemctl disable firewalld
 ```
-
-Accepting keys
+  
+Accepting keys  
 ```
 salt-key -L  # Lists all minion IDs
 salt-key -A  # Accepts All Keys 
 salt-key -a web01  # Accept specific key
 ```
-
-Deleting keys
+  
+Deleting keys  
 ```
 salt-key -D  # Deleting all keys
 salt-key -d dba01  # remove an specific key
@@ -102,8 +102,8 @@ Display the versions of SaltStack components
 ```
 salt-run manage.versions
 ```
-
-## Testing 
+  
+## Testing  
 ```
 salt '*' test.ping
 ```
