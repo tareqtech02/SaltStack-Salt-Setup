@@ -10,6 +10,13 @@ vim /etc/hosts
 192.168.235.26  salt-minions02
 ```
 
+Disable and Stop the Service Firewall Configuration
+```
+systemctl disable firewalld
+systemctl stop firewalld
+systemctl status firewalld
+```
+
 
 ## Salt Master  
 
@@ -34,10 +41,7 @@ Verify Salt Master Status
 systemctl status salt-master
 ```
 
-Disable and Stop the Service Firewall Configuration
-```
-systemctl disable firewalld
-```
+
   
 ## Salt Minions
 <br />  
@@ -92,10 +96,7 @@ Verify Salt Minion Status
 systemctl status salt-minion
 ```
 
-Disable and Stop the Service Firewall Configuration
-```
-systemctl disable firewalld
-```
+
   
 Accepting keys  
 ```
