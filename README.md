@@ -1,7 +1,6 @@
 # SaltStack or Salt Setup  
   
-<br />
-___
+<br />  
 ## Salt Master  
 ___
 Update System
@@ -31,8 +30,7 @@ systemctl disable firewalld
 ```
   
 ## Salt Minions  
-<br />
-___
+<br />  
 Update System
 ```
 yum update -y
@@ -106,7 +104,6 @@ salt-run manage.versions
 ```
   
 ## Testing  
-<br />
-___
+<br />  
 salt '*' test.ping
 ```
