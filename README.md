@@ -1,6 +1,6 @@
 # SaltStack or Salt Setup  
   
-<br>
+<br />
 ___
 ## Salt Master  
 ___
@@ -31,7 +31,7 @@ systemctl disable firewalld
 ```
   
 ## Salt Minions  
-<br>
+<br />
 ___
 Update System
 ```
@@ -106,7 +106,7 @@ salt-run manage.versions
 ```
   
 ## Testing  
-<br>
+<br />
 ___
 salt '*' test.ping
 ```
